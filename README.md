@@ -16,12 +16,6 @@
 
 Across the Georgia State University downtown campus, hundreds of students experience food insecurity, while campus dining facilities and meal-plan holders generate predictable daily surpluses of unused swipes and prepared food. **Panther's Pantry** faces persistent manual fulfillment bottlenecks, lacking real-time visibility into inventory and intake channels
 
-+---------------------+       +-----------------------+       +----------------------+
-|  SURPLUS RESOURCES  | ----> | OPERATIONAL BOTTLENECK| ----> |   NEGATIVE IMPACT    |
-| Unused meal swipes  |       | Panther's Pantry manual|       | Food waste & student |
-| & dining hall food  |       | fulfillment bottlenecks|       | insecurity continue  |
-+---------------------+       +-----------------------+       +----------------------+
-
 
 **CampusMealSync** is an enterprise resource management platform designed to bridge the operational gap between GSU Dining Services, Panther's Pantry staff, and students. The platform enables peer-to-peer meal swipe reallocation, dynamic pantry inventory reservation, and real-time surplus dining notifications, replacing fragmented physical queues with an automated, stigma-free digital pipeline.
 
@@ -30,19 +24,15 @@ Across the Georgia State University downtown campus, hundreds of students experi
 
 To resolve ambiguity from early lecture requirements, our analysis defined three distinct user tiers based on operational interactions
 
-+----------------------------+--------------------------------+------------------------------+
-| GSU STUDENTS (Favored)     | PANTHER'S PANTRY STAFF (Favored)| DINING VENDORS (Secondary)   |
-| • Frictionless swipe giving| • Real-time inventory control  | • 1-tap end-of-day surplus   |
-| • Stigma-free, anonymous   | • Automated intake schedules   |   broadcasts                 |
-|   intake & reservations    | • Fulfillment bottleneck triage| • Minimized waste liability  |
-+----------------------------+--------------------------------+------------------------------+
-
 
 1. **GSU Students (Favored User Class):** Meal plan holders wanting to donate excess swipes, alongside students requiring immediate, confidential access to meal allocations and pantry goods.
 2. **Panther's Pantry Staff & Volunteers (Favored User Class):** Operations managers requiring live inventory tracking, scheduled pickup windows, and automated intake logging to eliminate line congestion.
 3. **Campus Dining Vendors / Managers (Secondary User Class):** Dining commons administrators who need single-tap broadcast tools to alert registered students to perishable end-of-day food surpluses.
 
 ---
+## 2. Stakeholder Taxonomy & User Classes
+
+To resolve ambiguity from early lecture requirements, our analysis defined three distinct user tiers based on operational interactions
 
 ## 3. System Architecture & Feature Tree Decomposition
 
@@ -92,6 +82,3 @@ The system's core capabilities are organized into four functional epics:
 | **Direct Stakeholder Access** | Leveraged immediate access to GSU student peers and Panther's Pantry staff for authentic requirements discovery. |
 | **Information-Driven Solvability**| Solves data visibility and coordination friction rather than physical warehouse constraints. |
 | **Scattered Requirement Synthesis**| Successfully inferred, structured, and presented an Agile requirements blueprint despite ambiguous and embedded baseline course prompts. |
-## 2. Stakeholder Taxonomy & User Classes
-
-To resolve ambiguity from early lecture requirements, our analysis defined three distinct user tiers based on operational interactions[cite: 28]:
